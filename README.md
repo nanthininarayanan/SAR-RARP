@@ -11,6 +11,10 @@ We propose a Time Distributed-Convolutional Neural Network-Long Short-Term Memor
 The SAR-RARP50 training sets (1 and 2) were used in this project. The SAR-RARP50 paper has not been published yet. The challenge
 description is available at: https://www.synapse.org/Synapse:syn27618412/wiki/
 
+## Code
+
+The train file runs and saves the models on a subset of the data. The test file saves the predictions of the model on test set. The evaluate file calculates the accuracy and other metrics of the group of models and also displays the confusion matrix. Random forest algorithm is implemented with this code. The models used can be found in the models folder along with the test predictions in the testpred folder and the true labels in the testlabels folder.
+
 ## Software Requirements
 
 The packages that need to be installed to run this code are specified in the packages.txt file in the env folder. 
@@ -18,8 +22,4 @@ The packages that need to be installed to run this code are specified in the pac
 ## Hardware Requirements
 
 GPU computing units are required to run the models.
-
-## Code
-
-The train file runs and saves the models on a subset of the data. The test file saves the predictions of the model on test set. The evaluate file calculates the accuracy and other metrics of the group of models and also displays the confusion matrix. Random forest algorithm is implemented with this code. The models used can be found in the models folder along with the test predictions in the testpred folder and the true labels in the testlabels folder.
 
