@@ -2,7 +2,7 @@
 
 Action recognition is one of the most essential and increasingly explored task in computer vision. The development of a precise action recognition method on a surgical dataset is particularly challenging but beneficial since it could contribute to the guidance of a surgical robot and surgical education.
 
-We propose a Time Distributed-Convolutional Neural Network-Long Short-Term Memory (TD-CNN-LSTM) model that improves upon the Endo3D CNN-LSTM baseline model via a time-distributed framework pictured below.1 Our method is end-to-end and has the potential to outperform state-of-the-art models.
+We propose a Time Distributed-Convolutional Neural Network-Long Short-Term Memory (TD-CNN-LSTM) model that improves upon the Endo3D CNN-LSTM baseline model via a time-distributed framework pictured below. Our method is end-to-end and has the potential to outperform state-of-the-art models.
 
 ![IMG_0047](https://github.com/nanthininarayanan/SAR-RARP/assets/112656894/e35bd13f-9e29-42d2-986e-cffc2d9d0a87)
 
